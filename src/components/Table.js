@@ -7,6 +7,7 @@ export default ({data})=> <table class="table">
     <th scope="col">Last</th>
     <th scope="col">Phone</th>
     <th scope="col">Email</th>
+    <th scope="col">Location</th>
   </tr>
 </thead>
 <tbody>
@@ -15,7 +16,7 @@ export default ({data})=> <table class="table">
     <td>{a.name.last}</td>
     <td>{a.phone}</td>
     <td>{a.email}</td>
+    <td>{a.location.state}</td>
   </tr>)}
- 
 </tbody>
 </table>
