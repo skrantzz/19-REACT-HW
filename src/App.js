@@ -29,7 +29,7 @@ function App() {
 
     <div className="App">
       <Header user={currentUser}/>
-      {currentUser ? <><input onChange={(e)=> handleFilter(e.target.value.toLowerCase())} placeholder="Search For Employee"/>
+      {currentUser ? <><input style={{width: '50vw', textAlign: 'center'}}onChange={(e)=> handleFilter(e.target.value.toLowerCase())} placeholder="Search For Employee by Name or State"/>
      <Table data={filteredUsers}/></> : <Login login={handleLogin}/>}
     </div>
     

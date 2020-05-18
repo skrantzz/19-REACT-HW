@@ -17,7 +17,7 @@ return(
 
           <div className="form-label-group">
             <input onChange={(e)=>{console.log(input); setInput({...input,password:e.target.value})}} type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
-            <label for="inputPassword">Password</label>
+            <label for="inputPassword">Password is hellokitty</label>
           </div>
 
           <div className="custom-control custom-checkbox mb-3">
